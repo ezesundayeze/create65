@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+header{
+    /* background-color: #EDF8F4; */
+}
+
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+#portrait{
+    width: 500px;
+}
+
+.hero-illustration_brand{
+    border-radius: 20px 20px 0 0;
+}
+
+.hero-illustration_brand > li{
+    list-style: none;
+}
+
+.hero-illustration_brand>li>img{
+    width: 100px;
+}
+
+.hero-illustration_brand>:nth-child(2)>img{
+    width: 75px;
+}
+
+.hero-proposition_link{
+    /* font-size: 15px; */
+    text-decoration: none;
+    background: #48B774;
+    width: fit-content; 
+    padding: 10px; 
+     margin: 10px;
+    color: white;
+    border-radius: 25px;
+}
